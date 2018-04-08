@@ -1,0 +1,111 @@
+body{
+     background-color: #8EC5FC;
+     background-image: -webkit-linear-gradient(28deg, #8EC5FC 0%, #E0C3FC 100%);
+     background-image: -o-linear-gradient(28deg, #8EC5FC 0%, #E0C3FC 100%);
+     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+     color: white;
+     font-family: 'Work Sans', sans-serif;
+}
+ .main-section{
+     height: 100%;
+     height: 100vh 
+}
+ .main-section > .row{
+     height: 100%;
+}
+ .login-card{
+     background-color: #21D4FD;
+     background-image: -webkit-linear-gradient(71deg, #21D4FD 0%, #B721FF 100%);
+     background-image: -o-linear-gradient(71deg, #21D4FD 0%, #B721FF 100%);
+     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+     padding: 1.5rem 2.5rem;
+     border-radius: 5px;
+}
+ .logo{
+     text-align: left;
+     margin: 20px 0px;
+}
+ .logo img{
+     height: 40px;
+}
+ .heading .title{
+     font-family: 'Poppins', sans-serif;
+     margin-top: 1rem;
+     margin-bottom: .25rem;
+     font-size: 3rem;
+}
+ .heading > .lead{
+     color: #E3E7E7;
+     font-size: 1rem;
+}
+ .form-signin{
+     background-color: white;
+     padding: 1rem;
+     border-radius: 5px;
+     -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+ .form-signin > .form-control{
+     border:none;
+     background: -webkit-gradient(linear, right top, left top, from(lightgrey), color-stop(50%, lightgrey), color-stop(50%, #8956FE)) right bottom transparent no-repeat;
+     background: -webkit-linear-gradient(right, lightgrey 0%, lightgrey 50%, #8956FE 50%) right bottom transparent no-repeat;
+     background: -o-linear-gradient(right, lightgrey 0%, lightgrey 50%, #8956FE 50%) right bottom transparent no-repeat;
+     background: linear-gradient(to left, lightgrey 0%, lightgrey 50%, #8956FE 50%) right bottom transparent no-repeat;
+     background-size:200% 1px ;
+    /* if linear-gradient, we need to resize it */
+     border-radius: 0px;
+     margin-bottom: 2rem;
+     -webkit-transition: 0.4s;
+     -o-transition: 0.4s;
+     transition: 0.4s;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+}
+ .form-signin > .form-control:focus{
+     background-position:left bottom;
+}
+ .form-signin button{
+     background: -webkit-gradient(linear, right top, left top, from(#21D4FD), color-stop(50%, #B721FF), color-stop(50%, #B721FF), to(#21D4FD)) right bottom transparent no-repeat;
+     background: -webkit-linear-gradient(right, #21D4FD 0%, #B721FF 50%, #B721FF 50%, #21D4FD 100%) right bottom transparent no-repeat;
+     background: -o-linear-gradient(right, #21D4FD 0%, #B721FF 50%, #B721FF 50%, #21D4FD 100%) right bottom transparent no-repeat;
+     background: linear-gradient(to left, #21D4FD 0%, #B721FF 50%, #B721FF 50%, #21D4FD 100%) right bottom transparent no-repeat;
+     background-size:200% 100% ;
+    /* if linear-gradient, we need to resize it */
+     border: none;
+     -webkit-transition: 0.4s;
+     -o-transition: 0.4s;
+     transition: 0.4s;
+}
+ .form-signin button:hover{
+     background-position:left bottom;
+}
+ .form-signin .reset-link{
+     color: grey 
+}
+ @media (max-width: 768px) {
+     .card{
+         margin: 0px -15px;
+    }
+     .login-card{
+         padding: 0.75rem 1.25rem;
+         border-radius: 0px;
+    }
+}
+ .links{
+     margin: 1.25rem 0;
+     text-align: center;
+     font-size: 0.9rem 
+}
+ .links a{
+     color: #E3E7E7;
+}
+ .links a:hover{
+     text-decoration: none;
+     color: #f8f9f9;
+}
+ .card{
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     border-color: transparent;
+     background-color: transparent;
+}
